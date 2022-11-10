@@ -1,4 +1,4 @@
 export interface OrderRequest {
-    amount: number;
-    price: number;
+    amount?: string;
+    price?: string;
 }
